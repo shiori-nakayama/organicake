@@ -1,0 +1,42 @@
+$font-normal: 15px;
+$font-large: 30px;
+$font-extra-large: 50px;
+$main-color: #8FBC8B;
+$main-color2: #fff;
+$sub-color: #5a5a5a;
+$line-height-normal: 1.5;
+$font-family-accent: 'Kanit', sans-serif;
+
+@mixin row () {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+@mixin center() {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@mixin button() {
+  @include center;
+  width: 250px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: $main-color2;
+}
+
+@mixin button2() {
+  @include center;
+  width: 250px;
+  height: 60px;
+  background-color: $main-color;
+  border-radius: 20px;
+}
+
+@mixin radius () {
+  border-radius: 10px;
+}

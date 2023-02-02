@@ -224,11 +224,12 @@ footer small {
 }
 
 #top .content-4 {
+  height: 680px;
   background-image: url(../image/back-image3.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 80vh;
+  height: 70vh;
   margin-bottom: 250px;
 }
 #top .content-4 .wrapper {
@@ -242,7 +243,7 @@ footer small {
   position: relative;
 }
 #top .content-4 .inner {
-  height: 300px;
+  height: 340px;
   padding-bottom: 200px;
   position: absolute;
   top: 100px;
@@ -280,12 +281,11 @@ footer small {
   font-weight: bold;
   text-decoration: none;
 }
-#top .content-4 .inner .button:hover {
-  background-color: rgba(255, 255, 255, 0.8);
-}
 #top .content-4 img {
-  margin-right: 60px;
-  margin-top: 50px;
+  width: 580px;
+  height: 700px;
+  -o-object-fit: cover;
+     object-fit: cover;
   margin: 100px 60px 0 0;
   position: absolute;
   top: 50%;
@@ -295,7 +295,7 @@ footer small {
   color: #fff;
   font-size: 80px;
   position: absolute;
-  top: 490px;
+  top: 500px;
   font-family: "Kanit", sans-serif;
   z-index: -1;
 }
@@ -347,7 +347,7 @@ footer small {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 800px;
+  margin-left: 1000px;
 }
 #top .content-6 .inner .point-2 {
   border-radius: 10px;
@@ -384,9 +384,6 @@ footer small {
   color: #fff;
   font-weight: bold;
   text-decoration: none;
-}
-#top .content-6 .inner .button2:hover {
-  background-color: rgba(143, 188, 139, 0.8);
 }
 
 #shop main {
@@ -488,9 +485,6 @@ footer small {
   font-weight: bold;
   text-decoration: none;
 }
-#shop main .button:hover {
-  background-color: rgba(255, 255, 255, 0.8);
-}
 
 #contact main {
   padding: 200px 0 200px 0;
@@ -582,7 +576,11 @@ footer small {
   text-align: left;
   margin-bottom: 20px;
 }
-#contact main .contact .inner .item .button {
+#contact main .contact .inner .item .button a {
+  color: #fff;
+  text-decoration: none;
+}
+#contact main .contact .inner .item .button a input {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -594,15 +592,8 @@ footer small {
   background-color: #8FBC8B;
   border-radius: 100px;
 }
-#contact main .contact .inner .item .button a {
-  color: #fff;
-  text-decoration: none;
-}
 #contact main .contact .inner .item .button .center {
   padding: 0;
-}
-#contact main .contact .inner .item .button:hover {
-  background-color: rgba(143, 188, 139, 0.8);
 }
 
 /*-------------------------

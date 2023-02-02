@@ -533,6 +533,10 @@ footer {
       text-decoration: none;
     }
   }
+
+  .button:hover{
+    background-color:rgba(#fff,0.8);
+  }
 }
 
 //コンタクトページ
@@ -633,26 +637,31 @@ footer {
 
         }
 
+
+
         .button {
+          @include center;
+          width: 200px;
+          height: 50px;
+          margin: 0px auto;
+          background-color: $main-color;
+          border-radius: 100px;
 
           a {
             color: $main-color2;
             text-decoration: none;
 
-            input {
-              @include center;
-              width: 200px;
-              height: 50px;
-              margin: 0px auto;
-              background-color: $main-color;
-              border-radius: 100px;
-            }
           }
 
           .center {
             padding: 0;
           }
         }
+
+        .button:hover {
+          background-color:rgba($main-color,0.8);
+        }
+
       }
     }
   }
